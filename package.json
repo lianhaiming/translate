@@ -1,0 +1,30 @@
+{
+  "name": "translate",
+  "version": "1.0.0",
+  "description": "单词查找命令行工具",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "bin": {
+    "tl": "bin/tl"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lianhaiming/translate.git"
+  },
+  "author": "geeksan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lianhaiming/translate/issues"
+  },
+  "homepage": "https://github.com/lianhaiming/translate#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
+}

@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+
+const translate = require('../lib/translate');
+
+const argv = process.argv;
+let word = argv[2];
+let language = argv[3];
+translate(word, language);
