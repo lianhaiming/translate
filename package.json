@@ -1,5 +1,5 @@
 {
-  "name": "translate",
+  "name": "bee-translate",
   "version": "1.0.0",
   "description": "单词查找命令行工具",
   "main": "index.js",
